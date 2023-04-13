@@ -3,27 +3,34 @@
 }
 
 body{
-  background: linear-gradient(to top, rgb(23, 173, 128), rgb(2, 43, 9));
+  background: linear-gradient(to top, rgb(26, 85, 44), rgb(9, 10, 9));
   background-repeat: no repeat;
   background-attachment: fixed;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl5OPhqj0m9hB_RjEycBKBb6vILO4EiGqHbA&usqp=CAU);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
 }
 
+.about{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1piHl_GPPWC2TDfA9A3uHGrO9y8HiXknJlw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.paragraph{
+    font-size: 6rem;
+    color: limegreen;
+}
 .navbar{
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: rgb(18, 112, 19);
-color: snow;
+background-color: rgb(10, 11, 10);
+color: rgb(247, 241, 241);
 }
 
 .name{
     font-size: 3.5rem;
-    color: rgb(20, 21, 20);
+    color: rgb(245, 245, 242);
 }
 
 .navbar-links ul{
@@ -39,17 +46,34 @@ color: snow;
 
 .navbar-links li a {
     text-decoration: none;
-    color: rgb(9, 164, 9);
+    color: rgb(57, 128, 51);
     padding: 2rem;
     display: block;
 }
 
 .navbar-links li:hover {
-    background-color: rgb(47, 57, 58);
+    background-color: rgb(174, 179, 175);
 }
 
 .quote{
     display: flex;
     justify-content: center;
     font-size: x-large;
+    color: yellow;
+}
+
+.author{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+.anime{
+    color: snow;
+    font-size: 2.5em;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
 }
